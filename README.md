@@ -15,7 +15,7 @@ Binaries are under bin/, and the modified sources are under src/.
 
 ### PixelWheels: A top-down arcade style racer.
 - Run in java.
-- Game seems to run without bugs.
+- Game seems to run without bugs. Slight UI issues in menus however.
 - Best in fullscreen mode, and landscape screen rotation.
 - Enable touch UI in: Settings > Misc > Developer Options > Misc, then set "Force touch input" to true.
 - Change to touch UI in: Settings > Input, and set both controllers to Pie or Side buttons.

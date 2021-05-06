@@ -1,0 +1,1 @@
+include 'enginelab', 'uigallery', 'desktop', 'tools', 'android', 'core', 'core-tests'

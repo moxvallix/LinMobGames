@@ -1,0 +1,4 @@
+com/shatteredpixel/shatteredpixeldungeon/services/news/NewsImpl.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.NewsImpl
+com/shatteredpixel/shatteredpixeldungeon/services/news/DebugNews.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.DebugNews

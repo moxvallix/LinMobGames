@@ -1,0 +1,164 @@
+/*
+ * This file extension is not .json because it is not valid json (keys are not enclosed in quotes,
+ * and comments are allowed), causing Android Studio to highlight almost every line as an error.
+ */
+{
+    com.badlogic.gdx.graphics.Color: {
+        green: { a: 1, b: 0, g: 1, r: 0 },
+        white: { a: 1, b: 1, g: 1, r: 1 },
+        disabledTextColor: { a: 0.3, b: 1, g: 1, r: 1 },
+        red: { a: 1, b: 0, g: 0, r: 1 },
+        black: { a: 1, b: 0, g: 0, r: 0 },
+        yellow: {
+            r: 1,
+            g: 1,
+            b: 0,
+            a: 1
+        },
+        highlight: {
+            r: 0.965, g: 0.459, b: 0.478, a: 1
+        },
+        player0Color: {
+            r: 0.478, g: 0.459, b: 0.965, a: 1
+        },
+        player1Color: {
+            r: 0.459, g: 0.965, b: 0.478, a: 1
+        },
+    },
+    com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+        default: {
+            up: rectbutton,
+            down: rectbutton-down,
+            disabled: rectbutton-disabled,
+            unpressedOffsetY: 2,
+            pressedOffsetY: -2
+        }
+    },
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+        default: {
+            up: rectbutton,
+            down: rectbutton-down,
+            disabled: rectbutton-disabled,
+            font: default-font,
+            fontColor: white,
+            disabledFontColor: disabledTextColor,
+            pressedOffsetY: -2
+        }
+    },
+    com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+        default: { font: default-font, fontColor: white },
+        small: { font: small-font, fontColor: white },
+        tiny: { font: tiny-font, fontColor: white },
+        title: {
+            font: title-font,
+            fontColor: white
+        },
+        tableHeaderRow: {
+            font: default-font,
+            fontColor: highlight
+        },
+        aiRankingRow: {
+            font: default-font,
+            fontColor: white
+        },
+        player0RankingRow: {
+            font: default-font,
+            fontColor: player0Color
+        },
+        player1RankingRow: {
+            font: default-font,
+            fontColor: player1Color
+        },
+        hud: {
+            font: hud-font
+        },
+        hudRank: {
+            font: hud-rank-font
+        },
+        smallHud: {
+            font: small-hud-font
+        },
+        smallHudRank: {
+            font: small-hud-rank-font
+        },
+        hudCountDown: {
+            font: hud-countdown-font
+        },
+        menuTitle: {
+            font: title-font
+        },
+        version: {
+            font: tiny-bold-font,
+            fontColor: {
+                r: 0.247, g: 0.157, b: 0.196, a: 1
+            }
+        },
+        /* LimitedMarkdownParser styles */
+        mdH1: {
+            font: title-font
+        },
+        mdH2: {
+            font: default-font,
+            fontColor: highlight
+        }
+    },
+    com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+        default: {
+            checkboxOn: checkbox-on,
+            checkboxOff: checkbox-off,
+            font: default-font,
+            fontColor: white
+        }
+    },
+    com.agateau.ui.menu.Menu$MenuStyle: {
+        default: {
+            focus: focus,
+            focusPadding: 2,
+            spacing: 16
+        },
+        large: {
+            focus: focus,
+            focusPadding: 8,
+            spacing: 16
+        }
+    },
+    com.agateau.ui.menu.GridMenuItem$GridMenuItemStyle: {
+        default: {
+            selected: selected
+        }
+    },
+    com.agateau.ui.menu.SwitchMenuItem$SwitchMenuItemStyle: {
+        default: {
+            frame: menu-switch-frame,
+            framePadding: 4,
+            handle: menu-switch-handle
+        }
+    },
+    com.agateau.ui.menu.TabMenuItem$TabMenuItemStyle: {
+        default: {
+            frame: menu-switch-frame,
+            framePadding: 4,
+            tabPadding: 12,
+            handle: menu-switch-handle,
+            leftTabBorder: tab-border-left,
+            rightTabBorder: tab-border-right
+        }
+    },
+    com.agateau.ui.menu.RangeMenuItem$RangeMenuItemStyle: {
+        default: {
+            frame: menu-switch-frame,
+            framePadding: 4,
+            decIcon: icon-left,
+            incIcon: icon-right
+        }
+    },
+    com.agateau.ui.menu.SliderMenuItem$SliderMenuItemStyle: {
+        default: {
+            frame: menu-switch-frame,
+            framePadding: 4,
+            decIcon: icon-left,
+            incIcon: icon-right,
+            handle: slider-handle
+        }
+    }
+}

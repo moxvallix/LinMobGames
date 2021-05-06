@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<gdxui>
+    <AnchorGroup id="root" gridSize="20">
+        <Image topCenter="root.topCenter 0 -1" name="title">
+            <Action>
+                alpha 0
+                moveBy 20g -0
+                parallel
+                    alpha 1 0.5
+                    moveBy -20g 0 0.5 pow2In
+                end
+            </Action>
+        </Image>
+
+        <Menu id="menu" width="350" center="root.center 0 -3">
+            <Action>
+                alpha 0
+                moveBy -20g 0
+                parallel
+                    alpha 1 0.5
+                    moveBy 20g 0 0.5 pow2In
+                end
+            </Action>
+            <Items>
+                <Ifdef var="desktop">
+                    <ButtonMenuItem id="onePlayerButton" text="ONE PLAYER"/>
+                    <ButtonMenuItem id="multiPlayerButton" text="MULTI PLAYER"/>
+                </Ifdef>
+                <Else>
+                    <ButtonMenuItem id="quickRaceButton" text="QUICK RACE"/>
+                    <ButtonMenuItem id="championshipButton" text="CHAMPIONSHIP"/>
+                </Else>
+                <ButtonMenuItem id="settingsButton" text="SETTINGS"/>
+                <Ifdef var="desktop">
+                    <ButtonMenuItem id="quitButton" text="QUIT"/>
+                </Ifdef>
+            </Items>
+        </Menu>
+
+        <Image id="road-sign" bottomRight="root.bottomRight -1 0" name="version-number-road-sign"/>
+
+        <Label id="version" topCenter="road-sign.topCenter 0 -10px" style="version" align="center"/>
+    </AnchorGroup>
+</gdxui>

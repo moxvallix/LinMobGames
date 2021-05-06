@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="android/src/main/java"/>
+	<classpathentry kind="src" path="core/src/main/java"/>
+	<classpathentry kind="src" path="desktop/src/main/java"/>
+	<classpathentry kind="src" path="services/news/debugNews/src/main/java"/>
+	<classpathentry kind="src" path="services/news/shatteredNews/src/main/java"/>
+	<classpathentry kind="src" path="services/src/main/java"/>
+	<classpathentry kind="src" path="services/updates/debugUpdates/src/main/java"/>
+	<classpathentry kind="src" path="services/updates/githubUpdates/src/main/java"/>
+	<classpathentry kind="src" path="SPD-classes/src/main/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

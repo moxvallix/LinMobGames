@@ -1,0 +1,5 @@
+com/shatteredpixel/shatteredpixeldungeon/services/news/ShatteredNews.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.ShatteredNews
+ com.shatteredpixel.shatteredpixeldungeon.services.news.ShatteredNews$1
+com/shatteredpixel/shatteredpixeldungeon/services/news/NewsImpl.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.NewsImpl

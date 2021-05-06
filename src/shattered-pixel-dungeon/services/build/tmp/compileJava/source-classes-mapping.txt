@@ -1,0 +1,11 @@
+com/shatteredpixel/shatteredpixeldungeon/services/news/NewsService.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.NewsService
+ com.shatteredpixel.shatteredpixeldungeon.services.news.NewsService$NewsResultCallback
+com/shatteredpixel/shatteredpixeldungeon/services/updates/UpdateService.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.UpdateService
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.UpdateService$ReviewResultCallback
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.UpdateService$UpdateResultCallback
+com/shatteredpixel/shatteredpixeldungeon/services/news/NewsArticle.java
+ com.shatteredpixel.shatteredpixeldungeon.services.news.NewsArticle
+com/shatteredpixel/shatteredpixeldungeon/services/updates/AvailableUpdateData.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.AvailableUpdateData

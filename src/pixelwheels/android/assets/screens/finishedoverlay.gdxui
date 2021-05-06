@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<gdxui>
+    <Config>
+        <ConfigItem id="firstPointsIncreaseInterval" value="1"/>
+        <ConfigItem id="pointsIncreaseInterval" value="0.2"/>
+        <ConfigItem id="rankChangeAnimationSpeed" value="0.1"/>
+    </Config>
+    <AnchorGroup id="root" gridSize="20">
+        <Label id="titleLabel" style="title" topCenter="root.topCenter 0 -1g"></Label>
+
+        <Table id="scrollableTable"
+            topCenter="titleLabel.bottomCenter 0 -1g"
+            width="650px"
+            height="300px"/>
+
+        <Menu id="menu" width="14g" topCenter="scrollableTable.bottomCenter 0 -1g">
+            <Items>
+                <Ifdef var="quickRace">
+                    <ButtonMenuItem id="restartButton" text="RESTART"/>
+                    <ButtonMenuItem id="continueButton" text="BACK TO MENU"/>
+                </Ifdef>
+                <Else>
+                    <ButtonMenuItem id="continueButton" text="CONTINUE"/>
+                </Else>
+            </Items>
+        </Menu>
+    </AnchorGroup>
+</gdxui>

@@ -1,0 +1,4 @@
+com/shatteredpixel/shatteredpixeldungeon/services/updates/UpdateImpl.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.UpdateImpl
+com/shatteredpixel/shatteredpixeldungeon/services/updates/DebugUpdates.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.DebugUpdates

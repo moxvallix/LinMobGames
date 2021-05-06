@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="50" height="35" tilewidth="64" tileheight="64" infinite="0" backgroundcolor="#ffffff" nextlayerid="8" nextobjectid="59">
+ <tileset firstgid="1" source="snow.tsx"/>
+ <layer id="1" name="bg1" width="50" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztl02SgjAQhTOjo1sylmvjBdQjeBSPwlE4ikfxKNMMBl+abn5CmKqxsngFEgjvS3e6cWuM2WZlZWW9oc7G3E+kgsnCkZ9bdr1g5/w50pXrm7QjpfLvSAfSB13rkXuq755Wn08N3beewaH4rz1WTG4VMiCLH5PGHXB0xnAeissthuES+veeroxD9K1cn8VhIzgoDg9ieEheYN3vSgwGOfC5JeNBufQ4KBwQE81vx6uwBovHg8XCe6/4mhKncc389Vr9Hv05/rZsTLpWwPleydepHCwWHQ7v/9QwJ6/tRSIOG86DHO6o+Pd1ra9XaGO1sD9oHFP3h8ZBcXDk1Q3U5U7uj60F6y5HsL9SxYO8ujNwCHW5PlbQKyrg6IjzeZ8p4/FFRy5cD6gFlVdELVqcQ4oHcrBa4Fk6XleMQ6jF7b3FAEdkXpnN6z0Bh9Aj61jcU3HYZeLhNowDYuHjEHBgX5G0l/dxm1caR+w+1+JhX/5LP4b+h/qKUo9EDohf8njYF0Pp7zmO8D+WI/U+5/GgfLjVPWvf5FDLIPWVGA42f8CxmpFXPB5Qm0ocp1wK+soUjinfyzM4cN1Ujqnza/EY4pi7P6Au/TkH7vO5efVfOdaNT2TpyytD36qj9wab3yiexbya+h76fi7pmVLrYyjy5HaR8/P/T9LvOe/Jysp6L/0Ad1Ln6A==
+  </data>
+ </layer>
+ <layer id="2" name="bg2" width="50" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt1u0JgCAUheEzhAP0o1qgBRulURotg35GKV0/0vcB4ZKQ2rlCEgDgz1zpDUDLNU7u5llIPUqbXmrEs74fSyN5WJ5jsnpRx6zyKJ1FK/ejBj7L4a6O0UoeVufge4Tx/x3r0/ws7SnXz73OVz30lUUWtfTVX/TQVznQVwCAlA7WrRUF
+  </data>
+ </layer>
+ <layer id="3" name="fg1" width="50" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztWN1NAzEM9ihdBCaACaDAMwhYAFgAWKO5g3ck4BUe6FQ46lmyQi524oQG1E+yUEPOseP/AOygxR7S/raFMMLrcIx0qNjXs64HIOuQsy8Xr0hPAIsB/3oakVZIbvrtgvWBrfM1/p1j+0r5vWTq8Ib0nq9+c6AuC80+0uGrqTTlcEo90Je61cHD20OTE7R22xa8PXxOOIK0Lr3rQfY4h3R+GzvXY5zsIeXoVed6aORbwt/wq5r7PHit/K06p5VPm59b1UqU8yz1/5R8J0insGGgifOWtVK6x5R8l0hXSNcgx1Hrei/dY0q+G6RbpDuQ/a91vZfuMWWve6QHpEeQ76N1PpPiQ3u+5T5qQOKvPd8SZzWg9YelwKeW31Bt4TUldw6KQXuPNfzmGeZri/WetH2T9ZxYfeTzgpW/9nuL/5MdfF5eT2vUY1/ARhdrfNXKV3OY61No5qG3H2s/TX4vzYSldqf6uA7WQ3tY429kcxTxjKFUD/4d79dCe9SI85BnDKX+y++Z92sefH6rER8ae5T6L5eP92u1+BMGpT0+4Ofso5l/PhkP3q/F+PO6mDNvOXZO6Ttq7+/IWrR6R97hf+IbEbGxWA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Obstacles">
+  <object id="1" x="2832" y="304" width="64" height="1632"/>
+  <object id="2" x="256" y="486.59" width="48" height="1449.41"/>
+  <object id="3" x="1049.15" y="847.669" width="1302" height="31.8312"/>
+  <object id="4" x="2319" y="879.338" width="32" height="455.947"/>
+  <object id="5" x="250.482" y="1936" width="2645.52" height="64"/>
+  <object id="6" x="1808" y="1365.21" width="31" height="568.794"/>
+  <object id="7" x="479.782" y="240" width="2400.22" height="64"/>
+  <object id="9" x="784.587" y="1113.57" width="30.9407" height="220.74"/>
+  <object id="10" x="1496.9" y="1360" width="311.432" height="30.6667"/>
+  <object id="11" x="1168" y="1688.34" width="32" height="247.66"/>
+  <object id="12" x="1168.8" y="1688.61" width="463.286" height="30" rotation="-45"/>
+  <object id="55" x="1049.09" y="849.124" width="31.999" height="373.536" rotation="45"/>
+  <object id="56" x="253.098" y="491.373" width="323.779" height="32.9087" rotation="-45"/>
+ </objectgroup>
+ <objectgroup id="5" name="Sections">
+  <object id="13" name="0" x="802" y="1170">
+   <polyline points="-1,-16 -546,-18"/>
+  </object>
+  <object id="14" name="1" x="800" y="1138">
+   <polyline points="0,0 -533.878,-354.558"/>
+  </object>
+  <object id="15" name="2" x="898" y="1024">
+   <polyline points="0,0 -643.756,-773.771"/>
+  </object>
+  <object id="16" name="3" x="1090" y="848">
+   <polyline points="0,0 -130,-543"/>
+  </object>
+  <object id="17" name="4" x="1601" y="848">
+   <polyline points="0,0 0,-546"/>
+  </object>
+  <object id="18" name="5" x="2243" y="852">
+   <polyline points="0,0 64,-549"/>
+  </object>
+  <object id="19" name="6" x="2321" y="866">
+   <polyline points="0,0 544.599,-591.386"/>
+  </object>
+  <object id="20" name="7" x="2354" y="961">
+   <polyline points="0,0 528,-67"/>
+  </object>
+  <object id="21" name="8" x="2354" y="1282">
+   <polyline points="0,0 528,-3"/>
+  </object>
+  <object id="22" name="9" x="2353" y="1327">
+   <polyline points="0,0 531.107,674.198"/>
+  </object>
+  <object id="23" name="11" x="2323" y="882">
+   <polyline points="0,0 -550.878,530.985"/>
+  </object>
+  <object id="24" name="12" x="1338" y="1359">
+   <polyline points="-244,-500 192.185,90.0506"/>
+  </object>
+  <object id="25" name="13" x="1217" y="1504">
+   <polyline points="-418,-384 133.291,121.37"/>
+  </object>
+  <object id="26" name="14" x="1219" y="1936">
+   <polyline points="-403,-603 15.0659,89.5835"/>
+  </object>
+  <object id="27" name="15" x="322" y="1934">
+   <polyline points="465,-601 -102.543,106.116"/>
+  </object>
+  <object id="28" name="10" x="2322" y="1332">
+   <polyline points="0,0 -544.665,678.624"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Waypoints">
+  <properties>
+   <property name="direction" value="90"/>
+  </properties>
+  <object id="30" x="1283.35" y="589.403" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="32" x="635.762" y="820.188" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="34" x="2492.26" y="704.664" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="37" x="2174.34" y="1602.01" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="38" x="1921.61" y="1211.64" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="40" x="1348.13" y="1218.94" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="42" x="637.851" y="1470.72" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="43" x="2429.71" y="1531.78" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="BonusSpots" visible="0">
+  <object id="46" x="2176" y="448" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="47" x="2176" y="576" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="48" x="2304" y="1600" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="49" x="2304" y="1728" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="50" x="1152" y="1088" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="51" x="1216" y="1216" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="52" x="2176" y="704" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

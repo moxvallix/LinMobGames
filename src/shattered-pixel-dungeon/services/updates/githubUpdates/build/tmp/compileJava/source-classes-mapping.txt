@@ -1,0 +1,5 @@
+com/shatteredpixel/shatteredpixeldungeon/services/updates/GitHubUpdates.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.GitHubUpdates
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.GitHubUpdates$1
+com/shatteredpixel/shatteredpixeldungeon/services/updates/UpdateImpl.java
+ com.shatteredpixel.shatteredpixeldungeon.services.updates.UpdateImpl

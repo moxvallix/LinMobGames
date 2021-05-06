@@ -1,0 +1,74 @@
+#!/bin/sh
+set -e
+GOOGLE_JAVA_FORMAT_VERSION=1.7
+FORMATTER_URL=https://github.com/google/google-java-format/releases/download/google-java-format-${GOOGLE_JAVA_FORMAT_VERSION}/google-java-format-${GOOGLE_JAVA_FORMAT_VERSION}-all-deps.jar
+FORMATTER_SHA256SUM=0894ee02019ee8b4acd6df09fb50bac472e7199e1a5f041f8da58d08730694aa
+#FORMATTER_JAR=$HOME/.cache/google-java-format-with-deps-$GOOGLE_JAVA_FORMAT_VERSION.jar
+DEFAULT_ARGS=--aosp
+
+PROGNAME=$(basename $0)
+. $(dirname $0)/functions.sh
+
+download_formatter() {
+    download_to_cache $FORMATTER_URL $FORMATTER_SHA256SUM
+    FORMATTER_JAR=$LOCAL_PATH
+}
+
+create_file_list() {
+    local lst=$1
+    find . -name '*.java' | grep -v core/generated | grep -v android/build/generated > "$lst"
+}
+
+usage() {
+    if [ "$*" != "" ] ; then
+        echo "Error: $*"
+    fi
+
+    cat << EOF
+Usage: $PROGNAME [OPTION ...]
+Apply coding style.
+
+Options:
+  -h, --help          display this usage message and exit
+  -c, --check         check if coding style is OK, do not apply it
+EOF
+
+    exit 1
+}
+
+check=0
+while [ $# -gt 0 ] ; do
+    case "$1" in
+    -h|--help)
+        usage
+        ;;
+    -c|--check)
+        check=1
+        ;;
+    -*)
+        usage "Unknown option '$1'"
+        ;;
+    *)
+        usage "Too many arguments"
+        ;;
+    esac
+    shift
+done
+
+download_formatter
+
+cd $(dirname $0)/..
+
+create_file_list /tmp/files.lst
+
+if [ $check -eq 1 ] ; then
+    args="--dry-run --set-exit-if-changed"
+    echo "Checking coding style..."
+else
+    args="--replace"
+    echo "Applying coding style..."
+fi
+
+java -jar "$FORMATTER_JAR" $DEFAULT_ARGS $args @/tmp/files.lst
+
+# vim:set ts=4 sw=4 et:

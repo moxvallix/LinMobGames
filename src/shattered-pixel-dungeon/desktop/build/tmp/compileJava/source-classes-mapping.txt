@@ -1,0 +1,11 @@
+com/shatteredpixel/shatteredpixeldungeon/desktop/DesktopWindowListener.java
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopWindowListener
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopWindowListener$1
+com/shatteredpixel/shatteredpixeldungeon/desktop/DesktopLauncher.java
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopLauncher
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopLauncher$1
+com/shatteredpixel/shatteredpixeldungeon/desktop/DesktopPlatformSupport.java
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopPlatformSupport
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopPlatformSupport$1
+com/shatteredpixel/shatteredpixeldungeon/desktop/DesktopLaunchValidator.java
+ com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopLaunchValidator

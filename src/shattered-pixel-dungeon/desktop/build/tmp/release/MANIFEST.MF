@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopLaun
+ cher
+Specification-Title: Shattered Pixel Dungeon
+Specification-Version: 0.9.2
+Implementation-Version: 520
+

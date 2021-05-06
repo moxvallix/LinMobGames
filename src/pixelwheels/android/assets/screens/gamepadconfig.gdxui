@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gdxui>
+    <AnchorGroup id="root" gridSize="20">
+        <Label id="mainLabel" style="title"
+            topCenter="root.topCenter 0 -2">Gamepad config</Label>
+
+        <Menu id="menu" topCenter="mainLabel.bottomCenter 0 -4"
+            labelColumnWidth="150"
+            width="600">
+            <Items>
+                <ButtonMenuItem id="triggerPadButton" label="Trigger:" text=""/>
+                <ButtonMenuItem id="backPadButton" label="Back:" text=""/>
+            </Items>
+        </Menu>
+
+        <ImageButton id="backButton"
+            bottomLeft="root.bottomLeft 1 1"
+            imageName="icon-back"/>
+    </AnchorGroup>
+</gdxui>

@@ -1,0 +1,66 @@
+// grey=not done
+digraph {
+    // Screens
+    MainMenu;
+    Credits[color=grey];
+    Config;
+    SelectChampionship[color=grey];
+    SelectMap;
+    MultiPlayerSelectMap;
+
+    SelectVehicle;
+    MultiPlayerSelectVehicle;
+
+    Race;
+
+    ConfigOverlay;
+    FinishedOverlay;
+    TweakVehicleOverlay[color=grey];
+
+    ChampionshipFinished[color=grey];
+
+    UnlockedPart[color=grey];
+
+    // Edges
+    MainMenu -> Credits [dir=both, color=grey];
+
+    MainMenu -> Config [dir=both];
+
+    // Quick race
+    MainMenu -> SelectMap [dir=both, label="Quick race"];
+    SelectMap -> SelectVehicle [dir=both];
+
+    // Training
+    MainMenu -> SelectMap [dir=both, label="Training", color=grey];
+
+    // Championship
+    MainMenu -> SelectChampionship [dir=both, label="Championship", color=grey];
+    SelectChampionship -> SelectVehicle [dir=both, color=grey];
+
+    // Multiplayer
+    MainMenu -> MultiPlayerSelectMap [dir=both, label="Multiplayer"];
+    MultiPlayerSelectMap -> MultiPlayerSelectVehicle [dir=both];
+    MultiPlayerSelectVehicle -> Race [dir=both];
+
+    SelectVehicle -> Race;
+
+    Race -> PauseOverlay [dir=both label="Pause / Unpause"];
+    Race -> FinishedOverlay [label="Race finished"];
+
+    PauseOverlay -> Race [label="Restart"];
+    PauseOverlay -> MainMenu [label="Quit"];
+    PauseOverlay -> ConfigOverlay [dir=both];
+    PauseOverlay -> TweakVehicleOverlay [label="if training", color="grey"];
+
+    TweakVehicleOverlay -> Race[color="grey"];
+
+    FinishedOverlay -> Race [label="Restart"];
+    FinishedOverlay -> Race [label="Next race", color=grey];
+    FinishedOverlay -> MainMenu [label="Quit"];
+    FinishedOverlay -> ChampionshipFinished[color=grey];
+
+    ChampionshipFinished -> MainMenu[color=grey];
+    ChampionshipFinished -> UnlockedPart[label="if unlocked part", color=grey];
+
+    UnlockedPart -> MainMenu[color=grey];
+}

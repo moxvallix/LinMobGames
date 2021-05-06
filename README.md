@@ -7,7 +7,7 @@ All of them will run on the PinePhone, and probably the Librem 5 (which I can't 
 Binaries are under bin/, and the modified sources are under src/.
 
 ## List of games in this repo:
-### Shattered Pixel Dungeon: A roguelike pixellated RPG.
+### Shattered Pixel Dungeon: A roguelike pixelated RPG.
 - Run in java
 - Pinch-to-zoom was broken by my patches, but otherwise works perfectly. 
 - Set the game to full-screen for best effect. 

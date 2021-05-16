@@ -20,3 +20,9 @@ Binaries are under bin/, and the modified sources are under src/.
 - Enable touch UI in: Settings > Misc > Developer Options > Misc, then set "Force touch input" to true.
 - Change to touch UI in: Settings > Input, and set both controllers to Pie or Side buttons.
 - Only way to quit game on Plasma Mobile is from the game menu.
+
+### 1010! Klooni: A puzzle game where you have to eliminate lines of coloured bricks.
+- Run in java.
+- Game seems to run without bugs.
+- Menu is slow, but gameplay is normal.
+- Only way to quit game on Plasma Mobile is from the pause menu.

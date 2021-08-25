@@ -7,9 +7,9 @@ All of them will run on the PinePhone, and probably the Librem 5 (which I can't 
 Binaries are under bin/, and the modified sources are under src/.
 
 ## Running the Jar Files
-To run Java applications, you will need a JDK installed. I suggest OpenJDK.
-Arch: `sudo pacman -S jdk-openjdk`
-Debian: `sudo apt-get install openjdk-8-jdk`
+To run Java applications, you will need a JDK installed. I suggest OpenJDK.  
+Arch: `sudo pacman -S jdk-openjdk`  
+Debian: `sudo apt-get install openjdk-8-jdk`  
 To run a .jar, simply do `java -jar <jarname>.jar`
 
 ## List of games in this repo:
